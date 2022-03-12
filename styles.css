@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Century Gothic';  
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(black-gold-weave.jpg);
+    background-size: cover;
+}
+
+#navbar-logo{
+    font-size: 40;
+    margin: 10
+}
+
+.navbar-item{
+    display: inline;
+    margin: 10;
+    font-size: 20;
+}
+
+.navbar-container{
+    background-color: rgba(196, 192, 132, 0.438);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-links{
+    color:green;
+}
+
+
+
+
+
