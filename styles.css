@@ -14,7 +14,7 @@ body{
 }
 
 .navbar-container{
-    background-color: rgba(196, 192, 132, .3);
+    background-color: rgba(42, 179, 184, 0.315);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,16 +40,17 @@ body{
     font-size: 25;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .navbar-links{
     color: white;
     text-decoration: none;
+    overflow: hidden;
 }
 
 .navbar-links:hover {
     color: rgb(180, 235, 80,0.7);
-    
 }
 
 .navbar-button{
@@ -89,42 +90,48 @@ body{
     font-size: 40;
 }
 
-.anime{
+.media{
     background-color: rgba(0, 0, 0, 0.555);
     
 }
 
-.anime-heading{
+.media-heading{
     margin-top: 35;
     margin-left: 20;
     color: wheat;
     font-size: 30;
 }
 
-.anime-list{
+.media-list{
     text-align: center;
 }
 
-.anime-item{
+.media-item{
     display:inline-block;
     margin: 0 20 20;
     list-style: none;
 }
 
-.anime-name{
+.media-name{
     color: white;
     font-size: 25;
     text-decoration: none;
 }
 
-.anime-name:hover{
+.media-name:hover{
     color: green;
 }
 
-.goodfellas{
+.media-poster{
     height: 400;
     width: 280;
 }
+
+
+
+
+
+
 
 
 
