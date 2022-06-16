@@ -14,16 +14,18 @@
             <a href="#" id = "navbar-logo">SameerFlix</a>
             <ul>
                 <li class = navbar-item>
-                    <a href="#anime" class="navbar-links" id="anime">Anime</a>
+                    <a href="#anime" class="navbar-links">Anime</a>
                 </li>
                 <li class = navbar-item>
-                    <a href="#movies" class="navbar-links" id="movies">Movies</a>
+                    <a href="#movies" class="navbar-links">Movies</a>
                 </li>
                 <li class = navbar-item>
-                    <a href="#tv" class="navbar-links" id="TV">TV Shows</a>
+                    <a href="#tv" class="navbar-links">TV Shows</a>
                 </li>
             </ul>
-            <button type="button" class="navbar-button">Contact</button>
+            <li class="navbar-button">
+                <a href="#contact-heading" class="navbar-button-text">Contact me</a>
+            </li>
         </div>
     </nav>
 
@@ -38,7 +40,7 @@
     
     <!-- Anime -->
     <div class="media">
-        <h3 class="media-heading">Anime</h3>
+        <h3 class="media-heading" id="anime">Anime</h3>
         <ul class = "media-list">
             <li class="media-item">
                 <img src="animejpg/attack-on-titan.jpg" alt="Attack On Titan">
@@ -74,7 +76,7 @@
     </div>
 
     <!-- Movie -->
-    <div class="media">
+    <div class="media" id="movies">
         <h3 class="media-heading">Movies</h3>
         <ul class = "media-list">
             <li class="media-item">
@@ -112,7 +114,7 @@
 
             
     <!-- TV Shows -->
-    <div class="media">
+    <div class="media" id="tv">
         <h3 class="media-heading">TV Shows</h3>
         <ul class = "media-list">
             <li class="media-item">
@@ -149,22 +151,25 @@
     </div>
 
     <!--Contact Form-->
-    <div class="contact">
-        <form action="https://formsubmit.co/xmohdsameerx@email.com" method="POST">
-            <input type="text" name="name" placeholder="Enter your name" required>
-            <input type="email" name="email" placeholder="Enter your email" required>
-            <br>
-            <input type="text" name="message" placeholder="Type message here" required>
-            <br>
-            <button type="submit">Send</button>
-        </form> 
-    </div>
 
+    <h2 class="contact-heading" id="contact-heading">Wanna get in touch?</h2>
+    <form action="https://formsubmit.co/0fe57a93d32ebf3bf4f8db6fd2a98846" method="POST">
+        <input type="hidden" name="_next" value="https://sameerflix.netlify.app/">
+        <input type="hidden" name="_captcha" value="false">
+        <div class="contact-info">
+            <input id="contact-name" type="text" name="name" placeholder="Enter your name" required>
+            <input id="contact-email" type="email" name="email" placeholder="Enter your email" required>
+        </div>
+        <br>
+        <div class="contact-message">
+            <textarea id="contact-textarea" name="message" placeholder="Type message here" required></textarea>
+        </div>
+        <br>
+        <div class="contact-button">
+            <button id="contact-button-send" type="submit">Send</button>
+        </div>
+    </form> 
 
-
-
-
-
-
+  
 </body>
 </html>
